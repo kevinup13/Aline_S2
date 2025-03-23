@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+/*     background: linear-gradient(135deg, #ff4d6d, #ff99ac);
+ */ background-color: #ffe6f2;
+    font-family: "Satisfy", cursive;
+    font-size: 24px;
+    
+}
+.container {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#declaracao {
+    white-space: pre-line;
+    overflow: hidden;
+    display: inline-block;
+    overflow: hidden;
+}
+.btn {
+    background-color: #ff4d6d;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.heart {
+    position: absolute;
+    color: red;
+    font-size: 24px;
+    animation: float 2s linear infinite;
+}
+@keyframes float {
+    from { transform: translateY(0); opacity: 1; }
+    to { transform: translateY(-100px); opacity: 0; }
+}
+
+/* ======= RESPONSIVIDADE ======= */
+@media (max-width: 768px) {
+    body {
+        font-size: 20px;
+        padding: 10px;
+    }
+    .container {
+        max-width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .btn {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+    .heart {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 18px;
+        padding: 10px;
+    }
+    .btn {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+    .heart {
+        font-size: 18px;
+    }
+}

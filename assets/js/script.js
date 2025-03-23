@@ -1,7 +1,7 @@
 function iniciarDeclaracao() {
     document.getElementById("musica").play();
     document.getElementById("startBtn").style.display = "none";
-    document.body.style.background = "linear-gradient(135deg,rgb(255, 132, 162),rgb(255, 82, 140))";
+    document.body.style.background = "linear-gradient(135deg,rgb(255, 183, 201),rgb(255, 134, 174))";
     
     const texto = `Na minha memória cache só tem você🧠.
 Minha mente passa o dia fazendo requisições do seu sorriso👩.

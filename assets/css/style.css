@@ -28,6 +28,7 @@ body {
     overflow: hidden;
     display: inline-block;
     overflow: hidden;
+    color: darkred;
 }
 .btn {
     background-color: #ff4d6d;
